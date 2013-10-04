@@ -1,0 +1,7 @@
+#! /bin/bash
+# Determina el PID (Process ID) del algun proceso que se este ejecutando 
+
+echo "Ingresa un proceso que se este llevando actualmente"
+read PROC
+echo "el PID del proceso "$PROC" es:" 
+sudo ps -A | grep "$PROC" | cut -d" " -f2

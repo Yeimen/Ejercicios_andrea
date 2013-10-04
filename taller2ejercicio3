@@ -1,0 +1,7 @@
+#! /bin/bash
+#Busca dentro del directorio HOME los archivos que hayan sido modificados el día anterior.
+
+echo "ingresa un directorio"
+ find /home -mtime +1
+
+

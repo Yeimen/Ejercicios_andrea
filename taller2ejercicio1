@@ -1,0 +1,6 @@
+#! /bin/bash
+#Listar el contenido de  un directorio enviado por parametro  y mostrar los tamaños de archivo en unidades amigables (KB, MB, GB). 
+
+echo " lista el directorio "$1" "
+
+ls -lh "$1"

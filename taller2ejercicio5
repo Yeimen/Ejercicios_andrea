@@ -1,0 +1,7 @@
+#! /bin/bash
+# Muestra los puntos de montaje de los dispositivos de almacenamiento, asi como su sistema de archivos
+
+echo "muestra puntos de montaje y sistemas de archivos"
+
+blkid
+

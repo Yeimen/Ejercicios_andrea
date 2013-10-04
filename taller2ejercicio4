@@ -1,0 +1,6 @@
+#! /bin/bash
+# Busca dentro del directorio /var/log los archivos que hayan sido modificados entre ayer y anteayer.
+
+ find /var/log -mtime +2
+
+
